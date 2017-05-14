@@ -1,5 +1,5 @@
  /*
- * # Semantic UI - 2.2.10
+ * # Semantic UI - 
  * https://github.com/Semantic-Org/Semantic-UI
  * http://www.semantic-ui.com/
  *
@@ -10,7 +10,7 @@
  */
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin');
 /*!
- * # Semantic UI 2.2.10 - Reset
+ * # Semantic UI undefined - Reset
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -496,7 +496,7 @@ th {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Site
+ * # Semantic UI undefined - Site
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -664,7 +664,7 @@ input::selection {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Button
+ * # Semantic UI undefined - Button
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -853,14 +853,6 @@ input::selection {
   }
 }
 
-.ui.basic.loading.button:not(.inverted):before {
-  border-color: rgba(0, 0, 0, 0.1);
-}
-
-.ui.basic.loading.button:not(.inverted):after {
-  border-top-color: #767676;
-}
-
 /*-------------------
       Disabled
 --------------------*/
@@ -1025,73 +1017,15 @@ input::selection {
 }
 
 /*-------------------
-       Inverted
---------------------*/
-
-.ui.inverted.button {
-  box-shadow: 0px 0px 0px 2px #FFFFFF inset !important;
-  background: transparent none;
-  color: #FFFFFF;
-  text-shadow: none !important;
-}
-
-/* Group */
-
-.ui.inverted.buttons .button {
-  margin: 0px 0px 0px -2px;
-}
-
-.ui.inverted.buttons .button:first-child {
-  margin-left: 0em;
-}
-
-.ui.inverted.vertical.buttons .button {
-  margin: 0px 0px -2px 0px;
-}
-
-.ui.inverted.vertical.buttons .button:first-child {
-  margin-top: 0em;
-}
-
-/* States */
-
-/* Hover */
-
-.ui.inverted.button:hover {
-  background: #FFFFFF;
-  box-shadow: 0px 0px 0px 2px #FFFFFF inset !important;
-  color: rgba(0, 0, 0, 0.8);
-}
-
-/* Active / Focus */
-
-.ui.inverted.button:focus,
-.ui.inverted.button.active {
-  background: #FFFFFF;
-  box-shadow: 0px 0px 0px 2px #FFFFFF inset !important;
-  color: rgba(0, 0, 0, 0.8);
-}
-
-/* Active Focus */
-
-.ui.inverted.button.active:focus {
-  background: #DCDDDE;
-  box-shadow: 0px 0px 0px 2px #DCDDDE inset !important;
-  color: rgba(0, 0, 0, 0.8);
-}
-
-/*-------------------
     Labeled Button
 --------------------*/
 
 .ui.labeled.button:not(.icon) {
   display: -webkit-inline-box;
-  display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
   background: none !important;
@@ -1106,11 +1040,9 @@ input::selection {
 
 .ui.labeled.button > .label {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   margin: 0px 0px 0px -1px !important;
@@ -1528,48 +1460,6 @@ input::selection {
   box-shadow: '' !important;
 }
 
-/* Standard Basic Inverted */
-
-.ui.basic.inverted.buttons .button,
-.ui.basic.inverted.button {
-  background-color: transparent !important;
-  color: #F9FAFB !important;
-  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.5) inset !important;
-}
-
-.ui.basic.inverted.buttons .button:hover,
-.ui.basic.inverted.button:hover {
-  color: #FFFFFF !important;
-  box-shadow: 0px 0px 0px 2px #ffffff inset !important;
-}
-
-.ui.basic.inverted.buttons .button:focus,
-.ui.basic.inverted.button:focus {
-  color: #FFFFFF !important;
-  box-shadow: 0px 0px 0px 2px #ffffff inset !important;
-}
-
-.ui.basic.inverted.buttons .button:active,
-.ui.basic.inverted.button:active {
-  background-color: rgba(255, 255, 255, 0.08) !important;
-  color: #FFFFFF !important;
-  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.9) inset !important;
-}
-
-.ui.basic.inverted.buttons .active.button,
-.ui.basic.inverted.active.button {
-  background-color: rgba(255, 255, 255, 0.08);
-  color: #FFFFFF;
-  text-shadow: none;
-  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.7) inset;
-}
-
-.ui.basic.inverted.buttons .active.button:hover,
-.ui.basic.inverted.active.button:hover {
-  background-color: rgba(255, 255, 255, 0.15);
-  box-shadow: 0px 0px 0px 2px #ffffff inset !important;
-}
-
 /* Basic Group */
 
 .ui.basic.buttons .button {
@@ -1813,7 +1703,6 @@ input::selection {
 .ui.attached.buttons {
   position: relative;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   border-radius: 0em;
@@ -1867,7 +1756,6 @@ input::selection {
 
 .ui[class*="left attached"].buttons {
   display: -webkit-inline-box;
-  display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
   margin-right: 0em;
@@ -1887,7 +1775,6 @@ input::selection {
 
 .ui[class*="right attached"].buttons {
   display: -webkit-inline-box;
-  display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
   margin-left: 0em;
@@ -2011,7 +1898,6 @@ input::selection {
 .ui.fluid.vertical.buttons,
 .ui.fluid.vertical.buttons > .button {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: auto;
@@ -2059,2116 +1945,6 @@ input::selection {
 
 .ui.twelve.vertical.buttons > .button {
   height: 8.3333%;
-}
-
-/*-------------------
-       Colors
---------------------*/
-
-/*--- Black ---*/
-
-.ui.black.buttons .button,
-.ui.black.button {
-  background-color: #1B1C1D;
-  color: #FFFFFF;
-  text-shadow: none;
-  background-image: none;
-}
-
-.ui.black.button {
-  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
-}
-
-.ui.black.buttons .button:hover,
-.ui.black.button:hover {
-  background-color: #27292a;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-.ui.black.buttons .button:focus,
-.ui.black.button:focus {
-  background-color: #2f3032;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-.ui.black.buttons .button:active,
-.ui.black.button:active {
-  background-color: #343637;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-.ui.black.buttons .active.button,
-.ui.black.buttons .active.button:active,
-.ui.black.active.button,
-.ui.black.button .active.button:active {
-  background-color: #0f0f10;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-/* Basic */
-
-.ui.basic.black.buttons .button,
-.ui.basic.black.button {
-  box-shadow: 0px 0px 0px 1px #1B1C1D inset !important;
-  color: #1B1C1D !important;
-}
-
-.ui.basic.black.buttons .button:hover,
-.ui.basic.black.button:hover {
-  background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #27292a inset !important;
-  color: #27292a !important;
-}
-
-.ui.basic.black.buttons .button:focus,
-.ui.basic.black.button:focus {
-  background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #2f3032 inset !important;
-  color: #27292a !important;
-}
-
-.ui.basic.black.buttons .active.button,
-.ui.basic.black.active.button {
-  background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #0f0f10 inset !important;
-  color: #343637 !important;
-}
-
-.ui.basic.black.buttons .button:active,
-.ui.basic.black.button:active {
-  box-shadow: 0px 0px 0px 1px #343637 inset !important;
-  color: #343637 !important;
-}
-
-.ui.buttons:not(.vertical) > .basic.black.button:not(:first-child) {
-  margin-left: -1px;
-}
-
-/* Inverted */
-
-.ui.inverted.black.buttons .button,
-.ui.inverted.black.button {
-  background-color: transparent;
-  box-shadow: 0px 0px 0px 2px #D4D4D5 inset !important;
-  color: #FFFFFF;
-}
-
-.ui.inverted.black.buttons .button:hover,
-.ui.inverted.black.button:hover,
-.ui.inverted.black.buttons .button:focus,
-.ui.inverted.black.button:focus,
-.ui.inverted.black.buttons .button.active,
-.ui.inverted.black.button.active,
-.ui.inverted.black.buttons .button:active,
-.ui.inverted.black.button:active {
-  box-shadow: none !important;
-  color: #FFFFFF;
-}
-
-.ui.inverted.black.buttons .button:hover,
-.ui.inverted.black.button:hover {
-  background-color: #000000;
-}
-
-.ui.inverted.black.buttons .button:focus,
-.ui.inverted.black.button:focus {
-  background-color: #000000;
-}
-
-.ui.inverted.black.buttons .active.button,
-.ui.inverted.black.active.button {
-  background-color: #000000;
-}
-
-.ui.inverted.black.buttons .button:active,
-.ui.inverted.black.button:active {
-  background-color: #000000;
-}
-
-/* Inverted Basic */
-
-.ui.inverted.black.basic.buttons .button,
-.ui.inverted.black.buttons .basic.button,
-.ui.inverted.black.basic.button {
-  background-color: transparent;
-  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.5) inset !important;
-  color: #FFFFFF !important;
-}
-
-.ui.inverted.black.basic.buttons .button:hover,
-.ui.inverted.black.buttons .basic.button:hover,
-.ui.inverted.black.basic.button:hover {
-  box-shadow: 0px 0px 0px 2px #000000 inset !important;
-  color: #FFFFFF !important;
-}
-
-.ui.inverted.black.basic.buttons .button:focus,
-.ui.inverted.black.basic.buttons .button:focus,
-.ui.inverted.black.basic.button:focus {
-  box-shadow: 0px 0px 0px 2px #000000 inset !important;
-  color: #545454 !important;
-}
-
-.ui.inverted.black.basic.buttons .active.button,
-.ui.inverted.black.buttons .basic.active.button,
-.ui.inverted.black.basic.active.button {
-  box-shadow: 0px 0px 0px 2px #000000 inset !important;
-  color: #FFFFFF !important;
-}
-
-.ui.inverted.black.basic.buttons .button:active,
-.ui.inverted.black.buttons .basic.button:active,
-.ui.inverted.black.basic.button:active {
-  box-shadow: 0px 0px 0px 2px #000000 inset !important;
-  color: #FFFFFF !important;
-}
-
-/*--- Grey ---*/
-
-.ui.grey.buttons .button,
-.ui.grey.button {
-  background-color: #767676;
-  color: #FFFFFF;
-  text-shadow: none;
-  background-image: none;
-}
-
-.ui.grey.button {
-  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
-}
-
-.ui.grey.buttons .button:hover,
-.ui.grey.button:hover {
-  background-color: #838383;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-.ui.grey.buttons .button:focus,
-.ui.grey.button:focus {
-  background-color: #8a8a8a;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-.ui.grey.buttons .button:active,
-.ui.grey.button:active {
-  background-color: #909090;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-.ui.grey.buttons .active.button,
-.ui.grey.buttons .active.button:active,
-.ui.grey.active.button,
-.ui.grey.button .active.button:active {
-  background-color: #696969;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-/* Basic */
-
-.ui.basic.grey.buttons .button,
-.ui.basic.grey.button {
-  box-shadow: 0px 0px 0px 1px #767676 inset !important;
-  color: #767676 !important;
-}
-
-.ui.basic.grey.buttons .button:hover,
-.ui.basic.grey.button:hover {
-  background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #838383 inset !important;
-  color: #838383 !important;
-}
-
-.ui.basic.grey.buttons .button:focus,
-.ui.basic.grey.button:focus {
-  background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #8a8a8a inset !important;
-  color: #838383 !important;
-}
-
-.ui.basic.grey.buttons .active.button,
-.ui.basic.grey.active.button {
-  background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #696969 inset !important;
-  color: #909090 !important;
-}
-
-.ui.basic.grey.buttons .button:active,
-.ui.basic.grey.button:active {
-  box-shadow: 0px 0px 0px 1px #909090 inset !important;
-  color: #909090 !important;
-}
-
-.ui.buttons:not(.vertical) > .basic.grey.button:not(:first-child) {
-  margin-left: -1px;
-}
-
-/* Inverted */
-
-.ui.inverted.grey.buttons .button,
-.ui.inverted.grey.button {
-  background-color: transparent;
-  box-shadow: 0px 0px 0px 2px #D4D4D5 inset !important;
-  color: #FFFFFF;
-}
-
-.ui.inverted.grey.buttons .button:hover,
-.ui.inverted.grey.button:hover,
-.ui.inverted.grey.buttons .button:focus,
-.ui.inverted.grey.button:focus,
-.ui.inverted.grey.buttons .button.active,
-.ui.inverted.grey.button.active,
-.ui.inverted.grey.buttons .button:active,
-.ui.inverted.grey.button:active {
-  box-shadow: none !important;
-  color: rgba(0, 0, 0, 0.6);
-}
-
-.ui.inverted.grey.buttons .button:hover,
-.ui.inverted.grey.button:hover {
-  background-color: #cfd0d2;
-}
-
-.ui.inverted.grey.buttons .button:focus,
-.ui.inverted.grey.button:focus {
-  background-color: #c7c9cb;
-}
-
-.ui.inverted.grey.buttons .active.button,
-.ui.inverted.grey.active.button {
-  background-color: #cfd0d2;
-}
-
-.ui.inverted.grey.buttons .button:active,
-.ui.inverted.grey.button:active {
-  background-color: #c2c4c5;
-}
-
-/* Inverted Basic */
-
-.ui.inverted.grey.basic.buttons .button,
-.ui.inverted.grey.buttons .basic.button,
-.ui.inverted.grey.basic.button {
-  background-color: transparent;
-  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.5) inset !important;
-  color: #FFFFFF !important;
-}
-
-.ui.inverted.grey.basic.buttons .button:hover,
-.ui.inverted.grey.buttons .basic.button:hover,
-.ui.inverted.grey.basic.button:hover {
-  box-shadow: 0px 0px 0px 2px #cfd0d2 inset !important;
-  color: #FFFFFF !important;
-}
-
-.ui.inverted.grey.basic.buttons .button:focus,
-.ui.inverted.grey.basic.buttons .button:focus,
-.ui.inverted.grey.basic.button:focus {
-  box-shadow: 0px 0px 0px 2px #c7c9cb inset !important;
-  color: #DCDDDE !important;
-}
-
-.ui.inverted.grey.basic.buttons .active.button,
-.ui.inverted.grey.buttons .basic.active.button,
-.ui.inverted.grey.basic.active.button {
-  box-shadow: 0px 0px 0px 2px #cfd0d2 inset !important;
-  color: #FFFFFF !important;
-}
-
-.ui.inverted.grey.basic.buttons .button:active,
-.ui.inverted.grey.buttons .basic.button:active,
-.ui.inverted.grey.basic.button:active {
-  box-shadow: 0px 0px 0px 2px #c2c4c5 inset !important;
-  color: #FFFFFF !important;
-}
-
-/*--- Brown ---*/
-
-.ui.brown.buttons .button,
-.ui.brown.button {
-  background-color: #A5673F;
-  color: #FFFFFF;
-  text-shadow: none;
-  background-image: none;
-}
-
-.ui.brown.button {
-  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
-}
-
-.ui.brown.buttons .button:hover,
-.ui.brown.button:hover {
-  background-color: #975b33;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-.ui.brown.buttons .button:focus,
-.ui.brown.button:focus {
-  background-color: #90532b;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-.ui.brown.buttons .button:active,
-.ui.brown.button:active {
-  background-color: #805031;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-.ui.brown.buttons .active.button,
-.ui.brown.buttons .active.button:active,
-.ui.brown.active.button,
-.ui.brown.button .active.button:active {
-  background-color: #995a31;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-/* Basic */
-
-.ui.basic.brown.buttons .button,
-.ui.basic.brown.button {
-  box-shadow: 0px 0px 0px 1px #A5673F inset !important;
-  color: #A5673F !important;
-}
-
-.ui.basic.brown.buttons .button:hover,
-.ui.basic.brown.button:hover {
-  background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #975b33 inset !important;
-  color: #975b33 !important;
-}
-
-.ui.basic.brown.buttons .button:focus,
-.ui.basic.brown.button:focus {
-  background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #90532b inset !important;
-  color: #975b33 !important;
-}
-
-.ui.basic.brown.buttons .active.button,
-.ui.basic.brown.active.button {
-  background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #995a31 inset !important;
-  color: #805031 !important;
-}
-
-.ui.basic.brown.buttons .button:active,
-.ui.basic.brown.button:active {
-  box-shadow: 0px 0px 0px 1px #805031 inset !important;
-  color: #805031 !important;
-}
-
-.ui.buttons:not(.vertical) > .basic.brown.button:not(:first-child) {
-  margin-left: -1px;
-}
-
-/* Inverted */
-
-.ui.inverted.brown.buttons .button,
-.ui.inverted.brown.button {
-  background-color: transparent;
-  box-shadow: 0px 0px 0px 2px #D67C1C inset !important;
-  color: #D67C1C;
-}
-
-.ui.inverted.brown.buttons .button:hover,
-.ui.inverted.brown.button:hover,
-.ui.inverted.brown.buttons .button:focus,
-.ui.inverted.brown.button:focus,
-.ui.inverted.brown.buttons .button.active,
-.ui.inverted.brown.button.active,
-.ui.inverted.brown.buttons .button:active,
-.ui.inverted.brown.button:active {
-  box-shadow: none !important;
-  color: #FFFFFF;
-}
-
-.ui.inverted.brown.buttons .button:hover,
-.ui.inverted.brown.button:hover {
-  background-color: #c86f11;
-}
-
-.ui.inverted.brown.buttons .button:focus,
-.ui.inverted.brown.button:focus {
-  background-color: #c16808;
-}
-
-.ui.inverted.brown.buttons .active.button,
-.ui.inverted.brown.active.button {
-  background-color: #cc6f0d;
-}
-
-.ui.inverted.brown.buttons .button:active,
-.ui.inverted.brown.button:active {
-  background-color: #a96216;
-}
-
-/* Inverted Basic */
-
-.ui.inverted.brown.basic.buttons .button,
-.ui.inverted.brown.buttons .basic.button,
-.ui.inverted.brown.basic.button {
-  background-color: transparent;
-  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.5) inset !important;
-  color: #FFFFFF !important;
-}
-
-.ui.inverted.brown.basic.buttons .button:hover,
-.ui.inverted.brown.buttons .basic.button:hover,
-.ui.inverted.brown.basic.button:hover {
-  box-shadow: 0px 0px 0px 2px #c86f11 inset !important;
-  color: #D67C1C !important;
-}
-
-.ui.inverted.brown.basic.buttons .button:focus,
-.ui.inverted.brown.basic.buttons .button:focus,
-.ui.inverted.brown.basic.button:focus {
-  box-shadow: 0px 0px 0px 2px #c16808 inset !important;
-  color: #D67C1C !important;
-}
-
-.ui.inverted.brown.basic.buttons .active.button,
-.ui.inverted.brown.buttons .basic.active.button,
-.ui.inverted.brown.basic.active.button {
-  box-shadow: 0px 0px 0px 2px #cc6f0d inset !important;
-  color: #D67C1C !important;
-}
-
-.ui.inverted.brown.basic.buttons .button:active,
-.ui.inverted.brown.buttons .basic.button:active,
-.ui.inverted.brown.basic.button:active {
-  box-shadow: 0px 0px 0px 2px #a96216 inset !important;
-  color: #D67C1C !important;
-}
-
-/*--- Blue ---*/
-
-.ui.blue.buttons .button,
-.ui.blue.button {
-  background-color: #2185D0;
-  color: #FFFFFF;
-  text-shadow: none;
-  background-image: none;
-}
-
-.ui.blue.button {
-  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
-}
-
-.ui.blue.buttons .button:hover,
-.ui.blue.button:hover {
-  background-color: #1678c2;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-.ui.blue.buttons .button:focus,
-.ui.blue.button:focus {
-  background-color: #0d71bb;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-.ui.blue.buttons .button:active,
-.ui.blue.button:active {
-  background-color: #1a69a4;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-.ui.blue.buttons .active.button,
-.ui.blue.buttons .active.button:active,
-.ui.blue.active.button,
-.ui.blue.button .active.button:active {
-  background-color: #1279c6;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-/* Basic */
-
-.ui.basic.blue.buttons .button,
-.ui.basic.blue.button {
-  box-shadow: 0px 0px 0px 1px #2185D0 inset !important;
-  color: #2185D0 !important;
-}
-
-.ui.basic.blue.buttons .button:hover,
-.ui.basic.blue.button:hover {
-  background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #1678c2 inset !important;
-  color: #1678c2 !important;
-}
-
-.ui.basic.blue.buttons .button:focus,
-.ui.basic.blue.button:focus {
-  background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #0d71bb inset !important;
-  color: #1678c2 !important;
-}
-
-.ui.basic.blue.buttons .active.button,
-.ui.basic.blue.active.button {
-  background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #1279c6 inset !important;
-  color: #1a69a4 !important;
-}
-
-.ui.basic.blue.buttons .button:active,
-.ui.basic.blue.button:active {
-  box-shadow: 0px 0px 0px 1px #1a69a4 inset !important;
-  color: #1a69a4 !important;
-}
-
-.ui.buttons:not(.vertical) > .basic.blue.button:not(:first-child) {
-  margin-left: -1px;
-}
-
-/* Inverted */
-
-.ui.inverted.blue.buttons .button,
-.ui.inverted.blue.button {
-  background-color: transparent;
-  box-shadow: 0px 0px 0px 2px #54C8FF inset !important;
-  color: #54C8FF;
-}
-
-.ui.inverted.blue.buttons .button:hover,
-.ui.inverted.blue.button:hover,
-.ui.inverted.blue.buttons .button:focus,
-.ui.inverted.blue.button:focus,
-.ui.inverted.blue.buttons .button.active,
-.ui.inverted.blue.button.active,
-.ui.inverted.blue.buttons .button:active,
-.ui.inverted.blue.button:active {
-  box-shadow: none !important;
-  color: #FFFFFF;
-}
-
-.ui.inverted.blue.buttons .button:hover,
-.ui.inverted.blue.button:hover {
-  background-color: #3ac0ff;
-}
-
-.ui.inverted.blue.buttons .button:focus,
-.ui.inverted.blue.button:focus {
-  background-color: #2bbbff;
-}
-
-.ui.inverted.blue.buttons .active.button,
-.ui.inverted.blue.active.button {
-  background-color: #3ac0ff;
-}
-
-.ui.inverted.blue.buttons .button:active,
-.ui.inverted.blue.button:active {
-  background-color: #21b8ff;
-}
-
-/* Inverted Basic */
-
-.ui.inverted.blue.basic.buttons .button,
-.ui.inverted.blue.buttons .basic.button,
-.ui.inverted.blue.basic.button {
-  background-color: transparent;
-  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.5) inset !important;
-  color: #FFFFFF !important;
-}
-
-.ui.inverted.blue.basic.buttons .button:hover,
-.ui.inverted.blue.buttons .basic.button:hover,
-.ui.inverted.blue.basic.button:hover {
-  box-shadow: 0px 0px 0px 2px #3ac0ff inset !important;
-  color: #54C8FF !important;
-}
-
-.ui.inverted.blue.basic.buttons .button:focus,
-.ui.inverted.blue.basic.buttons .button:focus,
-.ui.inverted.blue.basic.button:focus {
-  box-shadow: 0px 0px 0px 2px #2bbbff inset !important;
-  color: #54C8FF !important;
-}
-
-.ui.inverted.blue.basic.buttons .active.button,
-.ui.inverted.blue.buttons .basic.active.button,
-.ui.inverted.blue.basic.active.button {
-  box-shadow: 0px 0px 0px 2px #3ac0ff inset !important;
-  color: #54C8FF !important;
-}
-
-.ui.inverted.blue.basic.buttons .button:active,
-.ui.inverted.blue.buttons .basic.button:active,
-.ui.inverted.blue.basic.button:active {
-  box-shadow: 0px 0px 0px 2px #21b8ff inset !important;
-  color: #54C8FF !important;
-}
-
-/*--- Green ---*/
-
-.ui.green.buttons .button,
-.ui.green.button {
-  background-color: #21BA45;
-  color: #FFFFFF;
-  text-shadow: none;
-  background-image: none;
-}
-
-.ui.green.button {
-  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
-}
-
-.ui.green.buttons .button:hover,
-.ui.green.button:hover {
-  background-color: #16ab39;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-.ui.green.buttons .button:focus,
-.ui.green.button:focus {
-  background-color: #0ea432;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-.ui.green.buttons .button:active,
-.ui.green.button:active {
-  background-color: #198f35;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-.ui.green.buttons .active.button,
-.ui.green.buttons .active.button:active,
-.ui.green.active.button,
-.ui.green.button .active.button:active {
-  background-color: #13ae38;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-/* Basic */
-
-.ui.basic.green.buttons .button,
-.ui.basic.green.button {
-  box-shadow: 0px 0px 0px 1px #21BA45 inset !important;
-  color: #21BA45 !important;
-}
-
-.ui.basic.green.buttons .button:hover,
-.ui.basic.green.button:hover {
-  background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #16ab39 inset !important;
-  color: #16ab39 !important;
-}
-
-.ui.basic.green.buttons .button:focus,
-.ui.basic.green.button:focus {
-  background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #0ea432 inset !important;
-  color: #16ab39 !important;
-}
-
-.ui.basic.green.buttons .active.button,
-.ui.basic.green.active.button {
-  background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #13ae38 inset !important;
-  color: #198f35 !important;
-}
-
-.ui.basic.green.buttons .button:active,
-.ui.basic.green.button:active {
-  box-shadow: 0px 0px 0px 1px #198f35 inset !important;
-  color: #198f35 !important;
-}
-
-.ui.buttons:not(.vertical) > .basic.green.button:not(:first-child) {
-  margin-left: -1px;
-}
-
-/* Inverted */
-
-.ui.inverted.green.buttons .button,
-.ui.inverted.green.button {
-  background-color: transparent;
-  box-shadow: 0px 0px 0px 2px #2ECC40 inset !important;
-  color: #2ECC40;
-}
-
-.ui.inverted.green.buttons .button:hover,
-.ui.inverted.green.button:hover,
-.ui.inverted.green.buttons .button:focus,
-.ui.inverted.green.button:focus,
-.ui.inverted.green.buttons .button.active,
-.ui.inverted.green.button.active,
-.ui.inverted.green.buttons .button:active,
-.ui.inverted.green.button:active {
-  box-shadow: none !important;
-  color: #FFFFFF;
-}
-
-.ui.inverted.green.buttons .button:hover,
-.ui.inverted.green.button:hover {
-  background-color: #22be34;
-}
-
-.ui.inverted.green.buttons .button:focus,
-.ui.inverted.green.button:focus {
-  background-color: #19b82b;
-}
-
-.ui.inverted.green.buttons .active.button,
-.ui.inverted.green.active.button {
-  background-color: #1fc231;
-}
-
-.ui.inverted.green.buttons .button:active,
-.ui.inverted.green.button:active {
-  background-color: #25a233;
-}
-
-/* Inverted Basic */
-
-.ui.inverted.green.basic.buttons .button,
-.ui.inverted.green.buttons .basic.button,
-.ui.inverted.green.basic.button {
-  background-color: transparent;
-  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.5) inset !important;
-  color: #FFFFFF !important;
-}
-
-.ui.inverted.green.basic.buttons .button:hover,
-.ui.inverted.green.buttons .basic.button:hover,
-.ui.inverted.green.basic.button:hover {
-  box-shadow: 0px 0px 0px 2px #22be34 inset !important;
-  color: #2ECC40 !important;
-}
-
-.ui.inverted.green.basic.buttons .button:focus,
-.ui.inverted.green.basic.buttons .button:focus,
-.ui.inverted.green.basic.button:focus {
-  box-shadow: 0px 0px 0px 2px #19b82b inset !important;
-  color: #2ECC40 !important;
-}
-
-.ui.inverted.green.basic.buttons .active.button,
-.ui.inverted.green.buttons .basic.active.button,
-.ui.inverted.green.basic.active.button {
-  box-shadow: 0px 0px 0px 2px #1fc231 inset !important;
-  color: #2ECC40 !important;
-}
-
-.ui.inverted.green.basic.buttons .button:active,
-.ui.inverted.green.buttons .basic.button:active,
-.ui.inverted.green.basic.button:active {
-  box-shadow: 0px 0px 0px 2px #25a233 inset !important;
-  color: #2ECC40 !important;
-}
-
-/*--- Orange ---*/
-
-.ui.orange.buttons .button,
-.ui.orange.button {
-  background-color: #F2711C;
-  color: #FFFFFF;
-  text-shadow: none;
-  background-image: none;
-}
-
-.ui.orange.button {
-  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
-}
-
-.ui.orange.buttons .button:hover,
-.ui.orange.button:hover {
-  background-color: #f26202;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-.ui.orange.buttons .button:focus,
-.ui.orange.button:focus {
-  background-color: #e55b00;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-.ui.orange.buttons .button:active,
-.ui.orange.button:active {
-  background-color: #cf590c;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-.ui.orange.buttons .active.button,
-.ui.orange.buttons .active.button:active,
-.ui.orange.active.button,
-.ui.orange.button .active.button:active {
-  background-color: #f56100;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-/* Basic */
-
-.ui.basic.orange.buttons .button,
-.ui.basic.orange.button {
-  box-shadow: 0px 0px 0px 1px #F2711C inset !important;
-  color: #F2711C !important;
-}
-
-.ui.basic.orange.buttons .button:hover,
-.ui.basic.orange.button:hover {
-  background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #f26202 inset !important;
-  color: #f26202 !important;
-}
-
-.ui.basic.orange.buttons .button:focus,
-.ui.basic.orange.button:focus {
-  background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #e55b00 inset !important;
-  color: #f26202 !important;
-}
-
-.ui.basic.orange.buttons .active.button,
-.ui.basic.orange.active.button {
-  background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #f56100 inset !important;
-  color: #cf590c !important;
-}
-
-.ui.basic.orange.buttons .button:active,
-.ui.basic.orange.button:active {
-  box-shadow: 0px 0px 0px 1px #cf590c inset !important;
-  color: #cf590c !important;
-}
-
-.ui.buttons:not(.vertical) > .basic.orange.button:not(:first-child) {
-  margin-left: -1px;
-}
-
-/* Inverted */
-
-.ui.inverted.orange.buttons .button,
-.ui.inverted.orange.button {
-  background-color: transparent;
-  box-shadow: 0px 0px 0px 2px #FF851B inset !important;
-  color: #FF851B;
-}
-
-.ui.inverted.orange.buttons .button:hover,
-.ui.inverted.orange.button:hover,
-.ui.inverted.orange.buttons .button:focus,
-.ui.inverted.orange.button:focus,
-.ui.inverted.orange.buttons .button.active,
-.ui.inverted.orange.button.active,
-.ui.inverted.orange.buttons .button:active,
-.ui.inverted.orange.button:active {
-  box-shadow: none !important;
-  color: #FFFFFF;
-}
-
-.ui.inverted.orange.buttons .button:hover,
-.ui.inverted.orange.button:hover {
-  background-color: #ff7701;
-}
-
-.ui.inverted.orange.buttons .button:focus,
-.ui.inverted.orange.button:focus {
-  background-color: #f17000;
-}
-
-.ui.inverted.orange.buttons .active.button,
-.ui.inverted.orange.active.button {
-  background-color: #ff7701;
-}
-
-.ui.inverted.orange.buttons .button:active,
-.ui.inverted.orange.button:active {
-  background-color: #e76b00;
-}
-
-/* Inverted Basic */
-
-.ui.inverted.orange.basic.buttons .button,
-.ui.inverted.orange.buttons .basic.button,
-.ui.inverted.orange.basic.button {
-  background-color: transparent;
-  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.5) inset !important;
-  color: #FFFFFF !important;
-}
-
-.ui.inverted.orange.basic.buttons .button:hover,
-.ui.inverted.orange.buttons .basic.button:hover,
-.ui.inverted.orange.basic.button:hover {
-  box-shadow: 0px 0px 0px 2px #ff7701 inset !important;
-  color: #FF851B !important;
-}
-
-.ui.inverted.orange.basic.buttons .button:focus,
-.ui.inverted.orange.basic.buttons .button:focus,
-.ui.inverted.orange.basic.button:focus {
-  box-shadow: 0px 0px 0px 2px #f17000 inset !important;
-  color: #FF851B !important;
-}
-
-.ui.inverted.orange.basic.buttons .active.button,
-.ui.inverted.orange.buttons .basic.active.button,
-.ui.inverted.orange.basic.active.button {
-  box-shadow: 0px 0px 0px 2px #ff7701 inset !important;
-  color: #FF851B !important;
-}
-
-.ui.inverted.orange.basic.buttons .button:active,
-.ui.inverted.orange.buttons .basic.button:active,
-.ui.inverted.orange.basic.button:active {
-  box-shadow: 0px 0px 0px 2px #e76b00 inset !important;
-  color: #FF851B !important;
-}
-
-/*--- Pink ---*/
-
-.ui.pink.buttons .button,
-.ui.pink.button {
-  background-color: #E03997;
-  color: #FFFFFF;
-  text-shadow: none;
-  background-image: none;
-}
-
-.ui.pink.button {
-  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
-}
-
-.ui.pink.buttons .button:hover,
-.ui.pink.button:hover {
-  background-color: #e61a8d;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-.ui.pink.buttons .button:focus,
-.ui.pink.button:focus {
-  background-color: #e10f85;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-.ui.pink.buttons .button:active,
-.ui.pink.button:active {
-  background-color: #c71f7e;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-.ui.pink.buttons .active.button,
-.ui.pink.buttons .active.button:active,
-.ui.pink.active.button,
-.ui.pink.button .active.button:active {
-  background-color: #ea158d;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-/* Basic */
-
-.ui.basic.pink.buttons .button,
-.ui.basic.pink.button {
-  box-shadow: 0px 0px 0px 1px #E03997 inset !important;
-  color: #E03997 !important;
-}
-
-.ui.basic.pink.buttons .button:hover,
-.ui.basic.pink.button:hover {
-  background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #e61a8d inset !important;
-  color: #e61a8d !important;
-}
-
-.ui.basic.pink.buttons .button:focus,
-.ui.basic.pink.button:focus {
-  background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #e10f85 inset !important;
-  color: #e61a8d !important;
-}
-
-.ui.basic.pink.buttons .active.button,
-.ui.basic.pink.active.button {
-  background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #ea158d inset !important;
-  color: #c71f7e !important;
-}
-
-.ui.basic.pink.buttons .button:active,
-.ui.basic.pink.button:active {
-  box-shadow: 0px 0px 0px 1px #c71f7e inset !important;
-  color: #c71f7e !important;
-}
-
-.ui.buttons:not(.vertical) > .basic.pink.button:not(:first-child) {
-  margin-left: -1px;
-}
-
-/* Inverted */
-
-.ui.inverted.pink.buttons .button,
-.ui.inverted.pink.button {
-  background-color: transparent;
-  box-shadow: 0px 0px 0px 2px #FF8EDF inset !important;
-  color: #FF8EDF;
-}
-
-.ui.inverted.pink.buttons .button:hover,
-.ui.inverted.pink.button:hover,
-.ui.inverted.pink.buttons .button:focus,
-.ui.inverted.pink.button:focus,
-.ui.inverted.pink.buttons .button.active,
-.ui.inverted.pink.button.active,
-.ui.inverted.pink.buttons .button:active,
-.ui.inverted.pink.button:active {
-  box-shadow: none !important;
-  color: #FFFFFF;
-}
-
-.ui.inverted.pink.buttons .button:hover,
-.ui.inverted.pink.button:hover {
-  background-color: #ff74d8;
-}
-
-.ui.inverted.pink.buttons .button:focus,
-.ui.inverted.pink.button:focus {
-  background-color: #ff65d3;
-}
-
-.ui.inverted.pink.buttons .active.button,
-.ui.inverted.pink.active.button {
-  background-color: #ff74d8;
-}
-
-.ui.inverted.pink.buttons .button:active,
-.ui.inverted.pink.button:active {
-  background-color: #ff5bd1;
-}
-
-/* Inverted Basic */
-
-.ui.inverted.pink.basic.buttons .button,
-.ui.inverted.pink.buttons .basic.button,
-.ui.inverted.pink.basic.button {
-  background-color: transparent;
-  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.5) inset !important;
-  color: #FFFFFF !important;
-}
-
-.ui.inverted.pink.basic.buttons .button:hover,
-.ui.inverted.pink.buttons .basic.button:hover,
-.ui.inverted.pink.basic.button:hover {
-  box-shadow: 0px 0px 0px 2px #ff74d8 inset !important;
-  color: #FF8EDF !important;
-}
-
-.ui.inverted.pink.basic.buttons .button:focus,
-.ui.inverted.pink.basic.buttons .button:focus,
-.ui.inverted.pink.basic.button:focus {
-  box-shadow: 0px 0px 0px 2px #ff65d3 inset !important;
-  color: #FF8EDF !important;
-}
-
-.ui.inverted.pink.basic.buttons .active.button,
-.ui.inverted.pink.buttons .basic.active.button,
-.ui.inverted.pink.basic.active.button {
-  box-shadow: 0px 0px 0px 2px #ff74d8 inset !important;
-  color: #FF8EDF !important;
-}
-
-.ui.inverted.pink.basic.buttons .button:active,
-.ui.inverted.pink.buttons .basic.button:active,
-.ui.inverted.pink.basic.button:active {
-  box-shadow: 0px 0px 0px 2px #ff5bd1 inset !important;
-  color: #FF8EDF !important;
-}
-
-/*--- Violet ---*/
-
-.ui.violet.buttons .button,
-.ui.violet.button {
-  background-color: #6435C9;
-  color: #FFFFFF;
-  text-shadow: none;
-  background-image: none;
-}
-
-.ui.violet.button {
-  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
-}
-
-.ui.violet.buttons .button:hover,
-.ui.violet.button:hover {
-  background-color: #5829bb;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-.ui.violet.buttons .button:focus,
-.ui.violet.button:focus {
-  background-color: #4f20b5;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-.ui.violet.buttons .button:active,
-.ui.violet.button:active {
-  background-color: #502aa1;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-.ui.violet.buttons .active.button,
-.ui.violet.buttons .active.button:active,
-.ui.violet.active.button,
-.ui.violet.button .active.button:active {
-  background-color: #5626bf;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-/* Basic */
-
-.ui.basic.violet.buttons .button,
-.ui.basic.violet.button {
-  box-shadow: 0px 0px 0px 1px #6435C9 inset !important;
-  color: #6435C9 !important;
-}
-
-.ui.basic.violet.buttons .button:hover,
-.ui.basic.violet.button:hover {
-  background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #5829bb inset !important;
-  color: #5829bb !important;
-}
-
-.ui.basic.violet.buttons .button:focus,
-.ui.basic.violet.button:focus {
-  background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #4f20b5 inset !important;
-  color: #5829bb !important;
-}
-
-.ui.basic.violet.buttons .active.button,
-.ui.basic.violet.active.button {
-  background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #5626bf inset !important;
-  color: #502aa1 !important;
-}
-
-.ui.basic.violet.buttons .button:active,
-.ui.basic.violet.button:active {
-  box-shadow: 0px 0px 0px 1px #502aa1 inset !important;
-  color: #502aa1 !important;
-}
-
-.ui.buttons:not(.vertical) > .basic.violet.button:not(:first-child) {
-  margin-left: -1px;
-}
-
-/* Inverted */
-
-.ui.inverted.violet.buttons .button,
-.ui.inverted.violet.button {
-  background-color: transparent;
-  box-shadow: 0px 0px 0px 2px #A291FB inset !important;
-  color: #A291FB;
-}
-
-.ui.inverted.violet.buttons .button:hover,
-.ui.inverted.violet.button:hover,
-.ui.inverted.violet.buttons .button:focus,
-.ui.inverted.violet.button:focus,
-.ui.inverted.violet.buttons .button.active,
-.ui.inverted.violet.button.active,
-.ui.inverted.violet.buttons .button:active,
-.ui.inverted.violet.button:active {
-  box-shadow: none !important;
-  color: #FFFFFF;
-}
-
-.ui.inverted.violet.buttons .button:hover,
-.ui.inverted.violet.button:hover {
-  background-color: #8a73ff;
-}
-
-.ui.inverted.violet.buttons .button:focus,
-.ui.inverted.violet.button:focus {
-  background-color: #7d64ff;
-}
-
-.ui.inverted.violet.buttons .active.button,
-.ui.inverted.violet.active.button {
-  background-color: #8a73ff;
-}
-
-.ui.inverted.violet.buttons .button:active,
-.ui.inverted.violet.button:active {
-  background-color: #7860f9;
-}
-
-/* Inverted Basic */
-
-.ui.inverted.violet.basic.buttons .button,
-.ui.inverted.violet.buttons .basic.button,
-.ui.inverted.violet.basic.button {
-  background-color: transparent;
-  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.5) inset !important;
-  color: #FFFFFF !important;
-}
-
-.ui.inverted.violet.basic.buttons .button:hover,
-.ui.inverted.violet.buttons .basic.button:hover,
-.ui.inverted.violet.basic.button:hover {
-  box-shadow: 0px 0px 0px 2px #8a73ff inset !important;
-  color: #A291FB !important;
-}
-
-.ui.inverted.violet.basic.buttons .button:focus,
-.ui.inverted.violet.basic.buttons .button:focus,
-.ui.inverted.violet.basic.button:focus {
-  box-shadow: 0px 0px 0px 2px #7d64ff inset !important;
-  color: #A291FB !important;
-}
-
-.ui.inverted.violet.basic.buttons .active.button,
-.ui.inverted.violet.buttons .basic.active.button,
-.ui.inverted.violet.basic.active.button {
-  box-shadow: 0px 0px 0px 2px #8a73ff inset !important;
-  color: #A291FB !important;
-}
-
-.ui.inverted.violet.basic.buttons .button:active,
-.ui.inverted.violet.buttons .basic.button:active,
-.ui.inverted.violet.basic.button:active {
-  box-shadow: 0px 0px 0px 2px #7860f9 inset !important;
-  color: #A291FB !important;
-}
-
-/*--- Purple ---*/
-
-.ui.purple.buttons .button,
-.ui.purple.button {
-  background-color: #A333C8;
-  color: #FFFFFF;
-  text-shadow: none;
-  background-image: none;
-}
-
-.ui.purple.button {
-  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
-}
-
-.ui.purple.buttons .button:hover,
-.ui.purple.button:hover {
-  background-color: #9627ba;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-.ui.purple.buttons .button:focus,
-.ui.purple.button:focus {
-  background-color: #8f1eb4;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-.ui.purple.buttons .button:active,
-.ui.purple.button:active {
-  background-color: #82299f;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-.ui.purple.buttons .active.button,
-.ui.purple.buttons .active.button:active,
-.ui.purple.active.button,
-.ui.purple.button .active.button:active {
-  background-color: #9724be;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-/* Basic */
-
-.ui.basic.purple.buttons .button,
-.ui.basic.purple.button {
-  box-shadow: 0px 0px 0px 1px #A333C8 inset !important;
-  color: #A333C8 !important;
-}
-
-.ui.basic.purple.buttons .button:hover,
-.ui.basic.purple.button:hover {
-  background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #9627ba inset !important;
-  color: #9627ba !important;
-}
-
-.ui.basic.purple.buttons .button:focus,
-.ui.basic.purple.button:focus {
-  background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #8f1eb4 inset !important;
-  color: #9627ba !important;
-}
-
-.ui.basic.purple.buttons .active.button,
-.ui.basic.purple.active.button {
-  background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #9724be inset !important;
-  color: #82299f !important;
-}
-
-.ui.basic.purple.buttons .button:active,
-.ui.basic.purple.button:active {
-  box-shadow: 0px 0px 0px 1px #82299f inset !important;
-  color: #82299f !important;
-}
-
-.ui.buttons:not(.vertical) > .basic.purple.button:not(:first-child) {
-  margin-left: -1px;
-}
-
-/* Inverted */
-
-.ui.inverted.purple.buttons .button,
-.ui.inverted.purple.button {
-  background-color: transparent;
-  box-shadow: 0px 0px 0px 2px #DC73FF inset !important;
-  color: #DC73FF;
-}
-
-.ui.inverted.purple.buttons .button:hover,
-.ui.inverted.purple.button:hover,
-.ui.inverted.purple.buttons .button:focus,
-.ui.inverted.purple.button:focus,
-.ui.inverted.purple.buttons .button.active,
-.ui.inverted.purple.button.active,
-.ui.inverted.purple.buttons .button:active,
-.ui.inverted.purple.button:active {
-  box-shadow: none !important;
-  color: #FFFFFF;
-}
-
-.ui.inverted.purple.buttons .button:hover,
-.ui.inverted.purple.button:hover {
-  background-color: #d65aff;
-}
-
-.ui.inverted.purple.buttons .button:focus,
-.ui.inverted.purple.button:focus {
-  background-color: #d24aff;
-}
-
-.ui.inverted.purple.buttons .active.button,
-.ui.inverted.purple.active.button {
-  background-color: #d65aff;
-}
-
-.ui.inverted.purple.buttons .button:active,
-.ui.inverted.purple.button:active {
-  background-color: #cf40ff;
-}
-
-/* Inverted Basic */
-
-.ui.inverted.purple.basic.buttons .button,
-.ui.inverted.purple.buttons .basic.button,
-.ui.inverted.purple.basic.button {
-  background-color: transparent;
-  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.5) inset !important;
-  color: #FFFFFF !important;
-}
-
-.ui.inverted.purple.basic.buttons .button:hover,
-.ui.inverted.purple.buttons .basic.button:hover,
-.ui.inverted.purple.basic.button:hover {
-  box-shadow: 0px 0px 0px 2px #d65aff inset !important;
-  color: #DC73FF !important;
-}
-
-.ui.inverted.purple.basic.buttons .button:focus,
-.ui.inverted.purple.basic.buttons .button:focus,
-.ui.inverted.purple.basic.button:focus {
-  box-shadow: 0px 0px 0px 2px #d24aff inset !important;
-  color: #DC73FF !important;
-}
-
-.ui.inverted.purple.basic.buttons .active.button,
-.ui.inverted.purple.buttons .basic.active.button,
-.ui.inverted.purple.basic.active.button {
-  box-shadow: 0px 0px 0px 2px #d65aff inset !important;
-  color: #DC73FF !important;
-}
-
-.ui.inverted.purple.basic.buttons .button:active,
-.ui.inverted.purple.buttons .basic.button:active,
-.ui.inverted.purple.basic.button:active {
-  box-shadow: 0px 0px 0px 2px #cf40ff inset !important;
-  color: #DC73FF !important;
-}
-
-/*--- Red ---*/
-
-.ui.red.buttons .button,
-.ui.red.button {
-  background-color: #DB2828;
-  color: #FFFFFF;
-  text-shadow: none;
-  background-image: none;
-}
-
-.ui.red.button {
-  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
-}
-
-.ui.red.buttons .button:hover,
-.ui.red.button:hover {
-  background-color: #d01919;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-.ui.red.buttons .button:focus,
-.ui.red.button:focus {
-  background-color: #ca1010;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-.ui.red.buttons .button:active,
-.ui.red.button:active {
-  background-color: #b21e1e;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-.ui.red.buttons .active.button,
-.ui.red.buttons .active.button:active,
-.ui.red.active.button,
-.ui.red.button .active.button:active {
-  background-color: #d41515;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-/* Basic */
-
-.ui.basic.red.buttons .button,
-.ui.basic.red.button {
-  box-shadow: 0px 0px 0px 1px #DB2828 inset !important;
-  color: #DB2828 !important;
-}
-
-.ui.basic.red.buttons .button:hover,
-.ui.basic.red.button:hover {
-  background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #d01919 inset !important;
-  color: #d01919 !important;
-}
-
-.ui.basic.red.buttons .button:focus,
-.ui.basic.red.button:focus {
-  background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #ca1010 inset !important;
-  color: #d01919 !important;
-}
-
-.ui.basic.red.buttons .active.button,
-.ui.basic.red.active.button {
-  background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #d41515 inset !important;
-  color: #b21e1e !important;
-}
-
-.ui.basic.red.buttons .button:active,
-.ui.basic.red.button:active {
-  box-shadow: 0px 0px 0px 1px #b21e1e inset !important;
-  color: #b21e1e !important;
-}
-
-.ui.buttons:not(.vertical) > .basic.red.button:not(:first-child) {
-  margin-left: -1px;
-}
-
-/* Inverted */
-
-.ui.inverted.red.buttons .button,
-.ui.inverted.red.button {
-  background-color: transparent;
-  box-shadow: 0px 0px 0px 2px #FF695E inset !important;
-  color: #FF695E;
-}
-
-.ui.inverted.red.buttons .button:hover,
-.ui.inverted.red.button:hover,
-.ui.inverted.red.buttons .button:focus,
-.ui.inverted.red.button:focus,
-.ui.inverted.red.buttons .button.active,
-.ui.inverted.red.button.active,
-.ui.inverted.red.buttons .button:active,
-.ui.inverted.red.button:active {
-  box-shadow: none !important;
-  color: #FFFFFF;
-}
-
-.ui.inverted.red.buttons .button:hover,
-.ui.inverted.red.button:hover {
-  background-color: #ff5144;
-}
-
-.ui.inverted.red.buttons .button:focus,
-.ui.inverted.red.button:focus {
-  background-color: #ff4335;
-}
-
-.ui.inverted.red.buttons .active.button,
-.ui.inverted.red.active.button {
-  background-color: #ff5144;
-}
-
-.ui.inverted.red.buttons .button:active,
-.ui.inverted.red.button:active {
-  background-color: #ff392b;
-}
-
-/* Inverted Basic */
-
-.ui.inverted.red.basic.buttons .button,
-.ui.inverted.red.buttons .basic.button,
-.ui.inverted.red.basic.button {
-  background-color: transparent;
-  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.5) inset !important;
-  color: #FFFFFF !important;
-}
-
-.ui.inverted.red.basic.buttons .button:hover,
-.ui.inverted.red.buttons .basic.button:hover,
-.ui.inverted.red.basic.button:hover {
-  box-shadow: 0px 0px 0px 2px #ff5144 inset !important;
-  color: #FF695E !important;
-}
-
-.ui.inverted.red.basic.buttons .button:focus,
-.ui.inverted.red.basic.buttons .button:focus,
-.ui.inverted.red.basic.button:focus {
-  box-shadow: 0px 0px 0px 2px #ff4335 inset !important;
-  color: #FF695E !important;
-}
-
-.ui.inverted.red.basic.buttons .active.button,
-.ui.inverted.red.buttons .basic.active.button,
-.ui.inverted.red.basic.active.button {
-  box-shadow: 0px 0px 0px 2px #ff5144 inset !important;
-  color: #FF695E !important;
-}
-
-.ui.inverted.red.basic.buttons .button:active,
-.ui.inverted.red.buttons .basic.button:active,
-.ui.inverted.red.basic.button:active {
-  box-shadow: 0px 0px 0px 2px #ff392b inset !important;
-  color: #FF695E !important;
-}
-
-/*--- Teal ---*/
-
-.ui.teal.buttons .button,
-.ui.teal.button {
-  background-color: #00B5AD;
-  color: #FFFFFF;
-  text-shadow: none;
-  background-image: none;
-}
-
-.ui.teal.button {
-  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
-}
-
-.ui.teal.buttons .button:hover,
-.ui.teal.button:hover {
-  background-color: #009c95;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-.ui.teal.buttons .button:focus,
-.ui.teal.button:focus {
-  background-color: #008c86;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-.ui.teal.buttons .button:active,
-.ui.teal.button:active {
-  background-color: #00827c;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-.ui.teal.buttons .active.button,
-.ui.teal.buttons .active.button:active,
-.ui.teal.active.button,
-.ui.teal.button .active.button:active {
-  background-color: #009c95;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-/* Basic */
-
-.ui.basic.teal.buttons .button,
-.ui.basic.teal.button {
-  box-shadow: 0px 0px 0px 1px #00B5AD inset !important;
-  color: #00B5AD !important;
-}
-
-.ui.basic.teal.buttons .button:hover,
-.ui.basic.teal.button:hover {
-  background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #009c95 inset !important;
-  color: #009c95 !important;
-}
-
-.ui.basic.teal.buttons .button:focus,
-.ui.basic.teal.button:focus {
-  background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #008c86 inset !important;
-  color: #009c95 !important;
-}
-
-.ui.basic.teal.buttons .active.button,
-.ui.basic.teal.active.button {
-  background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #009c95 inset !important;
-  color: #00827c !important;
-}
-
-.ui.basic.teal.buttons .button:active,
-.ui.basic.teal.button:active {
-  box-shadow: 0px 0px 0px 1px #00827c inset !important;
-  color: #00827c !important;
-}
-
-.ui.buttons:not(.vertical) > .basic.teal.button:not(:first-child) {
-  margin-left: -1px;
-}
-
-/* Inverted */
-
-.ui.inverted.teal.buttons .button,
-.ui.inverted.teal.button {
-  background-color: transparent;
-  box-shadow: 0px 0px 0px 2px #6DFFFF inset !important;
-  color: #6DFFFF;
-}
-
-.ui.inverted.teal.buttons .button:hover,
-.ui.inverted.teal.button:hover,
-.ui.inverted.teal.buttons .button:focus,
-.ui.inverted.teal.button:focus,
-.ui.inverted.teal.buttons .button.active,
-.ui.inverted.teal.button.active,
-.ui.inverted.teal.buttons .button:active,
-.ui.inverted.teal.button:active {
-  box-shadow: none !important;
-  color: rgba(0, 0, 0, 0.6);
-}
-
-.ui.inverted.teal.buttons .button:hover,
-.ui.inverted.teal.button:hover {
-  background-color: #54ffff;
-}
-
-.ui.inverted.teal.buttons .button:focus,
-.ui.inverted.teal.button:focus {
-  background-color: #44ffff;
-}
-
-.ui.inverted.teal.buttons .active.button,
-.ui.inverted.teal.active.button {
-  background-color: #54ffff;
-}
-
-.ui.inverted.teal.buttons .button:active,
-.ui.inverted.teal.button:active {
-  background-color: #3affff;
-}
-
-/* Inverted Basic */
-
-.ui.inverted.teal.basic.buttons .button,
-.ui.inverted.teal.buttons .basic.button,
-.ui.inverted.teal.basic.button {
-  background-color: transparent;
-  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.5) inset !important;
-  color: #FFFFFF !important;
-}
-
-.ui.inverted.teal.basic.buttons .button:hover,
-.ui.inverted.teal.buttons .basic.button:hover,
-.ui.inverted.teal.basic.button:hover {
-  box-shadow: 0px 0px 0px 2px #54ffff inset !important;
-  color: #6DFFFF !important;
-}
-
-.ui.inverted.teal.basic.buttons .button:focus,
-.ui.inverted.teal.basic.buttons .button:focus,
-.ui.inverted.teal.basic.button:focus {
-  box-shadow: 0px 0px 0px 2px #44ffff inset !important;
-  color: #6DFFFF !important;
-}
-
-.ui.inverted.teal.basic.buttons .active.button,
-.ui.inverted.teal.buttons .basic.active.button,
-.ui.inverted.teal.basic.active.button {
-  box-shadow: 0px 0px 0px 2px #54ffff inset !important;
-  color: #6DFFFF !important;
-}
-
-.ui.inverted.teal.basic.buttons .button:active,
-.ui.inverted.teal.buttons .basic.button:active,
-.ui.inverted.teal.basic.button:active {
-  box-shadow: 0px 0px 0px 2px #3affff inset !important;
-  color: #6DFFFF !important;
-}
-
-/*--- Olive ---*/
-
-.ui.olive.buttons .button,
-.ui.olive.button {
-  background-color: #B5CC18;
-  color: #FFFFFF;
-  text-shadow: none;
-  background-image: none;
-}
-
-.ui.olive.button {
-  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
-}
-
-.ui.olive.buttons .button:hover,
-.ui.olive.button:hover {
-  background-color: #a7bd0d;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-.ui.olive.buttons .button:focus,
-.ui.olive.button:focus {
-  background-color: #a0b605;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-.ui.olive.buttons .button:active,
-.ui.olive.button:active {
-  background-color: #8d9e13;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-.ui.olive.buttons .active.button,
-.ui.olive.buttons .active.button:active,
-.ui.olive.active.button,
-.ui.olive.button .active.button:active {
-  background-color: #aac109;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-/* Basic */
-
-.ui.basic.olive.buttons .button,
-.ui.basic.olive.button {
-  box-shadow: 0px 0px 0px 1px #B5CC18 inset !important;
-  color: #B5CC18 !important;
-}
-
-.ui.basic.olive.buttons .button:hover,
-.ui.basic.olive.button:hover {
-  background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #a7bd0d inset !important;
-  color: #a7bd0d !important;
-}
-
-.ui.basic.olive.buttons .button:focus,
-.ui.basic.olive.button:focus {
-  background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #a0b605 inset !important;
-  color: #a7bd0d !important;
-}
-
-.ui.basic.olive.buttons .active.button,
-.ui.basic.olive.active.button {
-  background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #aac109 inset !important;
-  color: #8d9e13 !important;
-}
-
-.ui.basic.olive.buttons .button:active,
-.ui.basic.olive.button:active {
-  box-shadow: 0px 0px 0px 1px #8d9e13 inset !important;
-  color: #8d9e13 !important;
-}
-
-.ui.buttons:not(.vertical) > .basic.olive.button:not(:first-child) {
-  margin-left: -1px;
-}
-
-/* Inverted */
-
-.ui.inverted.olive.buttons .button,
-.ui.inverted.olive.button {
-  background-color: transparent;
-  box-shadow: 0px 0px 0px 2px #D9E778 inset !important;
-  color: #D9E778;
-}
-
-.ui.inverted.olive.buttons .button:hover,
-.ui.inverted.olive.button:hover,
-.ui.inverted.olive.buttons .button:focus,
-.ui.inverted.olive.button:focus,
-.ui.inverted.olive.buttons .button.active,
-.ui.inverted.olive.button.active,
-.ui.inverted.olive.buttons .button:active,
-.ui.inverted.olive.button:active {
-  box-shadow: none !important;
-  color: rgba(0, 0, 0, 0.6);
-}
-
-.ui.inverted.olive.buttons .button:hover,
-.ui.inverted.olive.button:hover {
-  background-color: #d8ea5c;
-}
-
-.ui.inverted.olive.buttons .button:focus,
-.ui.inverted.olive.button:focus {
-  background-color: #daef47;
-}
-
-.ui.inverted.olive.buttons .active.button,
-.ui.inverted.olive.active.button {
-  background-color: #daed59;
-}
-
-.ui.inverted.olive.buttons .button:active,
-.ui.inverted.olive.button:active {
-  background-color: #cddf4d;
-}
-
-/* Inverted Basic */
-
-.ui.inverted.olive.basic.buttons .button,
-.ui.inverted.olive.buttons .basic.button,
-.ui.inverted.olive.basic.button {
-  background-color: transparent;
-  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.5) inset !important;
-  color: #FFFFFF !important;
-}
-
-.ui.inverted.olive.basic.buttons .button:hover,
-.ui.inverted.olive.buttons .basic.button:hover,
-.ui.inverted.olive.basic.button:hover {
-  box-shadow: 0px 0px 0px 2px #d8ea5c inset !important;
-  color: #D9E778 !important;
-}
-
-.ui.inverted.olive.basic.buttons .button:focus,
-.ui.inverted.olive.basic.buttons .button:focus,
-.ui.inverted.olive.basic.button:focus {
-  box-shadow: 0px 0px 0px 2px #daef47 inset !important;
-  color: #D9E778 !important;
-}
-
-.ui.inverted.olive.basic.buttons .active.button,
-.ui.inverted.olive.buttons .basic.active.button,
-.ui.inverted.olive.basic.active.button {
-  box-shadow: 0px 0px 0px 2px #daed59 inset !important;
-  color: #D9E778 !important;
-}
-
-.ui.inverted.olive.basic.buttons .button:active,
-.ui.inverted.olive.buttons .basic.button:active,
-.ui.inverted.olive.basic.button:active {
-  box-shadow: 0px 0px 0px 2px #cddf4d inset !important;
-  color: #D9E778 !important;
-}
-
-/*--- Yellow ---*/
-
-.ui.yellow.buttons .button,
-.ui.yellow.button {
-  background-color: #FBBD08;
-  color: #FFFFFF;
-  text-shadow: none;
-  background-image: none;
-}
-
-.ui.yellow.button {
-  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
-}
-
-.ui.yellow.buttons .button:hover,
-.ui.yellow.button:hover {
-  background-color: #eaae00;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-.ui.yellow.buttons .button:focus,
-.ui.yellow.button:focus {
-  background-color: #daa300;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-.ui.yellow.buttons .button:active,
-.ui.yellow.button:active {
-  background-color: #cd9903;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-.ui.yellow.buttons .active.button,
-.ui.yellow.buttons .active.button:active,
-.ui.yellow.active.button,
-.ui.yellow.button .active.button:active {
-  background-color: #eaae00;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-/* Basic */
-
-.ui.basic.yellow.buttons .button,
-.ui.basic.yellow.button {
-  box-shadow: 0px 0px 0px 1px #FBBD08 inset !important;
-  color: #FBBD08 !important;
-}
-
-.ui.basic.yellow.buttons .button:hover,
-.ui.basic.yellow.button:hover {
-  background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #eaae00 inset !important;
-  color: #eaae00 !important;
-}
-
-.ui.basic.yellow.buttons .button:focus,
-.ui.basic.yellow.button:focus {
-  background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #daa300 inset !important;
-  color: #eaae00 !important;
-}
-
-.ui.basic.yellow.buttons .active.button,
-.ui.basic.yellow.active.button {
-  background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #eaae00 inset !important;
-  color: #cd9903 !important;
-}
-
-.ui.basic.yellow.buttons .button:active,
-.ui.basic.yellow.button:active {
-  box-shadow: 0px 0px 0px 1px #cd9903 inset !important;
-  color: #cd9903 !important;
-}
-
-.ui.buttons:not(.vertical) > .basic.yellow.button:not(:first-child) {
-  margin-left: -1px;
-}
-
-/* Inverted */
-
-.ui.inverted.yellow.buttons .button,
-.ui.inverted.yellow.button {
-  background-color: transparent;
-  box-shadow: 0px 0px 0px 2px #FFE21F inset !important;
-  color: #FFE21F;
-}
-
-.ui.inverted.yellow.buttons .button:hover,
-.ui.inverted.yellow.button:hover,
-.ui.inverted.yellow.buttons .button:focus,
-.ui.inverted.yellow.button:focus,
-.ui.inverted.yellow.buttons .button.active,
-.ui.inverted.yellow.button.active,
-.ui.inverted.yellow.buttons .button:active,
-.ui.inverted.yellow.button:active {
-  box-shadow: none !important;
-  color: rgba(0, 0, 0, 0.6);
-}
-
-.ui.inverted.yellow.buttons .button:hover,
-.ui.inverted.yellow.button:hover {
-  background-color: #ffdf05;
-}
-
-.ui.inverted.yellow.buttons .button:focus,
-.ui.inverted.yellow.button:focus {
-  background-color: #f5d500;
-}
-
-.ui.inverted.yellow.buttons .active.button,
-.ui.inverted.yellow.active.button {
-  background-color: #ffdf05;
-}
-
-.ui.inverted.yellow.buttons .button:active,
-.ui.inverted.yellow.button:active {
-  background-color: #ebcd00;
-}
-
-/* Inverted Basic */
-
-.ui.inverted.yellow.basic.buttons .button,
-.ui.inverted.yellow.buttons .basic.button,
-.ui.inverted.yellow.basic.button {
-  background-color: transparent;
-  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.5) inset !important;
-  color: #FFFFFF !important;
-}
-
-.ui.inverted.yellow.basic.buttons .button:hover,
-.ui.inverted.yellow.buttons .basic.button:hover,
-.ui.inverted.yellow.basic.button:hover {
-  box-shadow: 0px 0px 0px 2px #ffdf05 inset !important;
-  color: #FFE21F !important;
-}
-
-.ui.inverted.yellow.basic.buttons .button:focus,
-.ui.inverted.yellow.basic.buttons .button:focus,
-.ui.inverted.yellow.basic.button:focus {
-  box-shadow: 0px 0px 0px 2px #f5d500 inset !important;
-  color: #FFE21F !important;
-}
-
-.ui.inverted.yellow.basic.buttons .active.button,
-.ui.inverted.yellow.buttons .basic.active.button,
-.ui.inverted.yellow.basic.active.button {
-  box-shadow: 0px 0px 0px 2px #ffdf05 inset !important;
-  color: #FFE21F !important;
-}
-
-.ui.inverted.yellow.basic.buttons .button:active,
-.ui.inverted.yellow.buttons .basic.button:active,
-.ui.inverted.yellow.basic.button:active {
-  box-shadow: 0px 0px 0px 2px #ebcd00 inset !important;
-  color: #FFE21F !important;
 }
 
 /*-------------------
@@ -4525,12 +2301,10 @@ input::selection {
 
 .ui.buttons {
   display: -webkit-inline-box;
-  display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
   font-size: 0em;
@@ -4538,7 +2312,7 @@ input::selection {
   margin: 0em 0.25em 0em 0em;
 }
 
-.ui.buttons:not(.basic):not(.inverted) {
+.ui.buttons:not(.basic) {
   box-shadow: none;
 }
 
@@ -4556,7 +2330,6 @@ input::selection {
 
 .ui.buttons .button {
   -webkit-box-flex: 1;
-  -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
   margin: 0em;
@@ -4564,8 +2337,8 @@ input::selection {
   margin: 0px 0px 0px 0px;
 }
 
-.ui.buttons > .ui.button:not(.basic):not(.inverted),
-.ui.buttons:not(.basic):not(.inverted) > .button {
+.ui.buttons > .ui.button:not(.basic),
+.ui.buttons:not(.basic) > .button {
   box-shadow: 0px 0px 0px 1px transparent inset, 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
 }
 
@@ -4585,12 +2358,10 @@ input::selection {
 
 .ui.vertical.buttons {
   display: -webkit-inline-box;
-  display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
 }
@@ -4627,7 +2398,7 @@ input::selection {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Container
+ * # Semantic UI undefined - Container
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -4788,7 +2559,7 @@ input::selection {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Divider
+ * # Semantic UI undefined - Divider
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -5055,7 +2826,7 @@ input::selection {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Flag
+ * # Semantic UI undefined - Flag
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -6326,7 +4097,7 @@ i.flag.zimbabwe:before {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Header
+ * # Semantic UI undefined - Header
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -7147,7 +4918,7 @@ a.ui.inverted.grey.header:hover {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Icon
+ * # Semantic UI undefined - Icon
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -11397,7 +9168,7 @@ i.icon.times.rectangle.outline:before {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Image
+ * # Semantic UI undefined - Image
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -11714,7 +9485,7 @@ img.ui.bordered.image {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Input
+ * # Semantic UI undefined - Input
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -11736,7 +9507,6 @@ img.ui.bordered.image {
   font-weight: normal;
   font-style: normal;
   display: -webkit-inline-box;
-  display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
   color: rgba(0, 0, 0, 0.87);
@@ -11746,7 +9516,6 @@ img.ui.bordered.image {
   margin: 0em;
   max-width: 100%;
   -webkit-box-flex: 1;
-  -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
   outline: none;
@@ -12045,7 +9814,6 @@ img.ui.bordered.image {
 
 .ui.labeled.input > .label {
   -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   margin: 0;
@@ -12147,15 +9915,12 @@ img.ui.bordered.image {
 .ui.action.input > .button,
 .ui.action.input > .buttons {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
 }
@@ -12235,7 +10000,6 @@ img.ui.bordered.image {
 
 .ui.fluid.input {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
@@ -12284,7 +10048,7 @@ img.ui.bordered.image {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Label
+ * # Semantic UI undefined - Label
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -13709,7 +11473,7 @@ a.ui.basic.label:hover {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - List
+ * # Semantic UI undefined - List
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -14786,7 +12550,7 @@ ol.ui.horizontal.list li:before,
     User Variable Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Loader
+ * # Semantic UI undefined - Loader
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -15164,7 +12928,7 @@ ol.ui.horizontal.list li:before,
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Rail
+ * # Semantic UI undefined - Rail
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -15326,7 +13090,7 @@ ol.ui.horizontal.list li:before,
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Reveal
+ * # Semantic UI undefined - Reveal
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -15631,7 +13395,7 @@ ol.ui.horizontal.list li:before,
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Segment
+ * # Semantic UI undefined - Segment
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -15890,7 +13654,6 @@ ol.ui.horizontal.list li:before,
 
 .ui.compact.segments {
   display: -webkit-inline-box;
-  display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
 }
@@ -15899,7 +13662,6 @@ ol.ui.horizontal.list li:before,
 .ui.segments .compact.segment {
   display: block;
   -webkit-box-flex: 0;
-  -webkit-flex: 0 1 auto;
   -ms-flex: 0 1 auto;
   flex: 0 1 auto;
 }
@@ -15934,7 +13696,6 @@ ol.ui.horizontal.list li:before,
 .ui.segments {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
   position: relative;
@@ -16010,12 +13771,10 @@ ol.ui.horizontal.list li:before,
 
 .ui.horizontal.segments {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
   background-color: transparent;
@@ -16043,7 +13802,6 @@ ol.ui.horizontal.list li:before,
 
 .ui.horizontal.segments > .segment {
   -webkit-box-flex: 1;
-  -webkit-flex: 1 1 auto;
   flex: 1 1 auto;
   -ms-flex: 1 1 0px;
   /* Solves #2550 MS Flex */
@@ -16518,7 +14276,7 @@ ol.ui.horizontal.list li:before,
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Step
+ * # Semantic UI undefined - Step
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -16533,16 +14291,13 @@ ol.ui.horizontal.list li:before,
 
 .ui.steps {
   display: -webkit-inline-box;
-  display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
   -webkit-box-align: stretch;
-  -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
   margin: 1em 0em;
@@ -16572,28 +14327,22 @@ ol.ui.horizontal.list li:before,
 .ui.steps .step {
   position: relative;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-flex: 1;
-  -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
-  -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
   vertical-align: middle;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
   margin: 0em 0em;
@@ -16698,17 +14447,15 @@ ol.ui.horizontal.list li:before,
 .ui.steps .step > .icon ~ .content {
   display: block;
   -webkit-box-flex: 0;
-  -webkit-flex: 0 1 auto;
   -ms-flex: 0 1 auto;
   flex: 0 1 auto;
-  -webkit-align-self: middle;
   -ms-flex-item-align: middle;
+  -ms-grid-row-align: middle;
   align-self: middle;
 }
 
 .ui.steps .step > .icon ~ .content {
   -webkit-box-flex: 1 0 auto;
-  -webkit-flex-grow: 1 0 auto;
   -ms-flex-positive: 1 0 auto;
   flex-grow: 1 0 auto;
 }
@@ -16743,8 +14490,8 @@ ol.ui.horizontal.list li:before,
   position: static;
   text-align: center;
   content: counters(ordered, ".");
-  -webkit-align-self: middle;
   -ms-flex-item-align: middle;
+  -ms-grid-row-align: middle;
   align-self: middle;
   margin-right: 1rem;
   font-size: 2.5em;
@@ -16755,8 +14502,8 @@ ol.ui.horizontal.list li:before,
 
 .ui.ordered.steps .step > * {
   display: block;
-  -webkit-align-self: middle;
   -ms-flex-item-align: middle;
+  -ms-grid-row-align: middle;
   align-self: middle;
 }
 
@@ -16766,12 +14513,10 @@ ol.ui.horizontal.list li:before,
 
 .ui.vertical.steps {
   display: -webkit-inline-box;
-  display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
   overflow: visible;
@@ -16779,7 +14524,6 @@ ol.ui.horizontal.list li:before,
 
 .ui.vertical.steps .step {
   -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
   justify-content: flex-start;
   border-radius: 0em;
@@ -16839,13 +14583,11 @@ ol.ui.horizontal.list li:before,
 @media only screen and (max-width: 767px) {
   .ui.steps {
     display: -webkit-inline-box;
-    display: -webkit-inline-flex;
     display: -ms-inline-flexbox;
     display: inline-flex;
     overflow: visible;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
   }
@@ -16854,7 +14596,6 @@ ol.ui.horizontal.list li:before,
     width: 100% !important;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
     border-radius: 0em;
@@ -17001,13 +14742,11 @@ ol.ui.horizontal.list li:before,
 @media only screen and (max-width: 991px) {
   .ui[class*="tablet stackable"].steps {
     display: -webkit-inline-box;
-    display: -webkit-inline-flex;
     display: -ms-inline-flexbox;
     display: inline-flex;
     overflow: visible;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
   }
@@ -17017,7 +14756,6 @@ ol.ui.horizontal.list li:before,
   .ui[class*="tablet stackable"].steps .step {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
     border-radius: 0em;
@@ -17061,7 +14799,6 @@ ol.ui.horizontal.list li:before,
 
 .ui.fluid.steps {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
@@ -17126,7 +14863,6 @@ ol.ui.horizontal.list li:before,
 .ui.six.steps > .step,
 .ui.seven.steps > .step,
 .ui.eight.steps > .step {
-  -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
 }
@@ -17227,7 +14963,7 @@ ol.ui.horizontal.list li:before,
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Breadcrumb
+ * # Semantic UI undefined - Breadcrumb
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -17358,7 +15094,7 @@ ol.ui.horizontal.list li:before,
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Form
+ * # Semantic UI undefined - Form
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -17600,7 +15336,6 @@ ol.ui.horizontal.list li:before,
 .ui.form .two.fields .ui.input input,
 .ui.form .wide.field .ui.input input {
   -webkit-box-flex: 1;
-  -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
   width: 0px;
@@ -17779,7 +15514,6 @@ ol.ui.horizontal.list li:before,
 
 .ui.form.success .icon.success.message:not(:empty) {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
@@ -17800,7 +15534,6 @@ ol.ui.horizontal.list li:before,
 
 .ui.form.warning .icon.warning.message:not(:empty) {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
@@ -17821,7 +15554,6 @@ ol.ui.horizontal.list li:before,
 
 .ui.form.error .icon.error.message:not(:empty) {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
@@ -18182,12 +15914,10 @@ ol.ui.horizontal.list li:before,
 
 .ui.form .fields {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
   margin: 0em -0.5em 1em;
@@ -18195,7 +15925,6 @@ ol.ui.horizontal.list li:before,
 
 .ui.form .fields > .field {
   -webkit-box-flex: 0;
-  -webkit-flex: 0 1 auto;
   -ms-flex: 0 1 auto;
   flex: 0 1 auto;
   padding-left: 0.5em;
@@ -18258,7 +15987,6 @@ ol.ui.horizontal.list li:before,
 
 @media only screen and (max-width: 767px) {
   .ui.form .fields {
-    -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
@@ -18402,7 +16130,6 @@ ol.ui.horizontal.list li:before,
 .ui.form [class*="equal width"].fields > .field {
   width: 100%;
   -webkit-box-flex: 1;
-  -webkit-flex: 1 1 auto;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
 }
@@ -18414,9 +16141,7 @@ ol.ui.horizontal.list li:before,
 .ui.form .inline.fields {
   margin: 0em 0em 1em;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
-  -ms-grid-row-align: center;
   align-items: center;
 }
 
@@ -18479,11 +16204,9 @@ ol.ui.horizontal.list li:before,
 
 .ui.form .inline.fields .wide.field {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
 }
@@ -18537,7 +16260,7 @@ ol.ui.horizontal.list li:before,
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Grid
+ * # Semantic UI undefined - Grid
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -18552,19 +16275,15 @@ ol.ui.horizontal.list li:before,
 
 .ui.grid {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-box-align: stretch;
-  -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
   padding: 0em;
@@ -18625,23 +16344,18 @@ ol.ui.horizontal.list li:before,
 .ui.grid > .row {
   position: relative;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-box-pack: inherit;
-  -webkit-justify-content: inherit;
   -ms-flex-pack: inherit;
   justify-content: inherit;
   -webkit-box-align: stretch;
-  -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
   width: 100% !important;
@@ -18700,7 +16414,6 @@ ol.ui.horizontal.list li:before,
 
 .ui.grid .row + .ui.divider {
   -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
   margin: 1rem 1rem;
@@ -19651,7 +17364,6 @@ ol.ui.horizontal.list li:before,
 .ui.grid > .centered.row {
   text-align: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
 }
@@ -19908,11 +17620,9 @@ ol.ui.horizontal.list li:before,
 .ui.grid > .row > [class*="top aligned"].column {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
   vertical-align: top;
-  -webkit-align-self: flex-start !important;
   -ms-flex-item-align: start !important;
   align-self: flex-start !important;
 }
@@ -19926,12 +17636,11 @@ ol.ui.horizontal.list li:before,
 .ui.grid > .row > [class*="middle aligned"].column {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
   vertical-align: middle;
-  -webkit-align-self: center !important;
   -ms-flex-item-align: center !important;
+  -ms-grid-row-align: center !important;
   align-self: center !important;
 }
 
@@ -19944,11 +17653,9 @@ ol.ui.horizontal.list li:before,
 .ui.grid > .row > [class*="bottom aligned"].column {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
   vertical-align: bottom;
-  -webkit-align-self: flex-end !important;
   -ms-flex-item-align: end !important;
   align-self: flex-end !important;
 }
@@ -19961,15 +17668,12 @@ ol.ui.horizontal.list li:before,
 .ui.grid > .stretched.column:not(.row),
 .ui.grid > .row > .stretched.column {
   display: -webkit-inline-box !important;
-  display: -webkit-inline-flex !important;
   display: -ms-inline-flexbox !important;
   display: inline-flex !important;
-  -webkit-align-self: stretch;
   -ms-flex-item-align: stretch;
   align-self: stretch;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
 }
@@ -19980,7 +17684,6 @@ ol.ui.horizontal.list li:before,
 .ui.grid > .stretched.column:not(.row) > *,
 .ui.grid > .row > .stretched.column > * {
   -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
 }
@@ -19997,8 +17700,8 @@ ol.ui.horizontal.list li:before,
 .ui.grid > [class*="left aligned"].column.column,
 .ui.grid > .row > [class*="left aligned"].column.column {
   text-align: left;
-  -webkit-align-self: inherit;
   -ms-flex-item-align: inherit;
+  -ms-grid-row-align: inherit;
   align-self: inherit;
 }
 
@@ -20010,14 +17713,13 @@ ol.ui.horizontal.list li:before,
 .ui.grid > [class*="center aligned"].column.column,
 .ui.grid > .row > [class*="center aligned"].column.column {
   text-align: center;
-  -webkit-align-self: inherit;
   -ms-flex-item-align: inherit;
+  -ms-grid-row-align: inherit;
   align-self: inherit;
 }
 
 .ui[class*="center aligned"].grid {
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
 }
@@ -20030,8 +17732,8 @@ ol.ui.horizontal.list li:before,
 .ui.grid > [class*="right aligned"].column.column,
 .ui.grid > .row > [class*="right aligned"].column.column {
   text-align: right;
-  -webkit-align-self: inherit;
   -ms-flex-item-align: inherit;
+  -ms-grid-row-align: inherit;
   align-self: inherit;
 }
 
@@ -20197,7 +17899,6 @@ ol.ui.horizontal.list li:before,
 .ui.grid > [class*="equal width"].row > .column {
   display: inline-block;
   -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
 }
@@ -20206,7 +17907,6 @@ ol.ui.horizontal.list li:before,
 .ui[class*="equal width"].grid > .row > .wide.column,
 .ui.grid > [class*="equal width"].row > .wide.column {
   -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
   -ms-flex-positive: 0;
   flex-grow: 0;
 }
@@ -20223,7 +17923,6 @@ ol.ui.horizontal.list li:before,
   .ui.grid > [class*="mobile reversed"].row {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
-    -webkit-flex-direction: row-reverse;
     -ms-flex-direction: row-reverse;
     flex-direction: row-reverse;
   }
@@ -20232,7 +17931,6 @@ ol.ui.horizontal.list li:before,
   .ui.stackable[class*="mobile reversed"] {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
-    -webkit-flex-direction: column-reverse;
     -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
   }
@@ -20278,7 +17976,6 @@ ol.ui.horizontal.list li:before,
   .ui.grid > [class*="tablet reversed"].row {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
-    -webkit-flex-direction: row-reverse;
     -ms-flex-direction: row-reverse;
     flex-direction: row-reverse;
   }
@@ -20286,7 +17983,6 @@ ol.ui.horizontal.list li:before,
   .ui[class*="tablet vertically reversed"].grid {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
-    -webkit-flex-direction: column-reverse;
     -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
   }
@@ -20332,7 +18028,6 @@ ol.ui.horizontal.list li:before,
   .ui.grid > [class*="computer reversed"].row {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
-    -webkit-flex-direction: row-reverse;
     -ms-flex-direction: row-reverse;
     flex-direction: row-reverse;
   }
@@ -20340,7 +18035,6 @@ ol.ui.horizontal.list li:before,
   .ui[class*="computer vertically reversed"].grid {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
-    -webkit-flex-direction: column-reverse;
     -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
   }
@@ -20858,7 +18552,6 @@ ol.ui.horizontal.list li:before,
 
 .ui.menu {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   margin: 1rem 0em;
@@ -20897,7 +18590,6 @@ ol.ui.horizontal.list li:before,
 
 .ui.menu:not(.vertical) > .menu {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
@@ -20908,11 +18600,9 @@ ol.ui.horizontal.list li:before,
 
 .ui.menu:not(.vertical) .item {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
 }
@@ -20924,7 +18614,6 @@ ol.ui.horizontal.list li:before,
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
   -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   -webkit-user-select: none;
@@ -21008,16 +18697,13 @@ ol.ui.horizontal.list li:before,
 .ui.menu > .grid,
 .ui.menu > .container {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: inherit;
-  -webkit-align-items: inherit;
   -ms-flex-align: inherit;
   align-items: inherit;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: inherit;
   -ms-flex-direction: inherit;
   flex-direction: inherit;
 }
@@ -21083,7 +18769,6 @@ ol.ui.horizontal.list li:before,
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
   -webkit-box-orient: vertical !important;
   -webkit-box-direction: normal !important;
-  -webkit-flex-direction: column !important;
   -ms-flex-direction: column !important;
   flex-direction: column !important;
 }
@@ -21345,7 +19030,6 @@ Floated Menu / Item
 .ui.menu:not(.vertical) .left.item,
 .ui.menu:not(.vertical) .left.menu {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   margin-right: auto !important;
@@ -21356,7 +19040,6 @@ Floated Menu / Item
 .ui.menu:not(.vertical) .right.item,
 .ui.menu:not(.vertical) .right.menu {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   margin-left: auto !important;
@@ -21378,7 +19061,6 @@ Floated Menu / Item
   display: block;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
   background: #FFFFFF;
@@ -21653,7 +19335,6 @@ Floated Menu / Item
 .ui.pagination.menu {
   margin: 0em;
   display: -webkit-inline-box;
-  display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
   vertical-align: middle;
@@ -21706,8 +19387,8 @@ Floated Menu / Item
 /* Item */
 
 .ui.secondary.menu .item {
-  -webkit-align-self: center;
   -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
   align-self: center;
   box-shadow: none;
   border: none;
@@ -21850,7 +19531,6 @@ Floated Menu / Item
   border-bottom-color: transparent;
   border-bottom-style: solid;
   border-radius: 0em;
-  -webkit-align-self: flex-end;
   -ms-flex-item-align: end;
   align-self: flex-end;
   margin: 0em 0em -2px;
@@ -21987,8 +19667,8 @@ Floated Menu / Item
 .ui.text.menu .item {
   border-radius: 0px;
   box-shadow: none;
-  -webkit-align-self: center;
   -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
   align-self: center;
   margin: 0em 0em;
   padding: 0.35714286em 0.5em;
@@ -22187,7 +19867,6 @@ Floated Menu / Item
   min-width: 6em;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
 }
@@ -22219,7 +19898,6 @@ Floated Menu / Item
   .ui.stackable.menu {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
   }
@@ -22678,7 +20356,6 @@ Floated Menu / Item
 
 .ui.compact.menu {
   display: -webkit-inline-box;
-  display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
   margin: 0em;
@@ -22727,7 +20404,6 @@ Floated Menu / Item
   margin-right: 0em !important;
   text-align: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
 }
@@ -23099,7 +20775,7 @@ Floated Menu / Item
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Message
+ * # Semantic UI undefined - Message
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -23264,7 +20940,6 @@ Floated Menu / Item
 
 .ui.icon.visible.visible.visible.visible.message {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
@@ -23326,12 +21001,10 @@ Floated Menu / Item
 
 .ui.icon.message {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
 }
@@ -23339,7 +21012,6 @@ Floated Menu / Item
 .ui.icon.message > .icon:not(.close) {
   display: block;
   -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   width: auto;
@@ -23352,7 +21024,6 @@ Floated Menu / Item
 .ui.icon.message > .content {
   display: block;
   -webkit-box-flex: 1;
-  -webkit-flex: 1 1 auto;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   vertical-align: middle;
@@ -23645,7 +21316,7 @@ Floated Menu / Item
         Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Table
+ * # Semantic UI undefined - Table
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -24909,7 +22580,7 @@ Floated Menu / Item
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Ad
+ * # Semantic UI undefined - Ad
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -25198,7 +22869,7 @@ Floated Menu / Item
     User Variable Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Item
+ * # Semantic UI undefined - Item
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -25220,12 +22891,10 @@ Floated Menu / Item
   max-width: 100%;
   position: relative;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
   width: 290px;
@@ -25265,18 +22934,15 @@ Floated Menu / Item
 
 .ui.cards {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   margin: -0.875em -0.5em;
-  -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
 .ui.cards > .card {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   margin: 0.875em 0.5em;
@@ -25330,7 +22996,6 @@ Floated Menu / Item
   position: relative;
   display: block;
   -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding: 0em;
@@ -25357,7 +23022,6 @@ Floated Menu / Item
 .ui.cards > .card > .content,
 .ui.card > .content {
   -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
   border: none;
@@ -25631,7 +23295,6 @@ Floated Menu / Item
   max-width: 100%;
   min-height: 0em !important;
   -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
   -ms-flex-positive: 0;
   flex-grow: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.05) !important;
@@ -25689,7 +23352,6 @@ a.ui.raised.card:hover,
 
 .ui.centered.cards {
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
 }
@@ -26281,7 +23943,7 @@ a.ui.card:hover,
     User Variable Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Comment
+ * # Semantic UI undefined - Comment
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -26566,7 +24228,7 @@ a.ui.card:hover,
     User Variable Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Feed
+ * # Semantic UI undefined - Feed
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -26599,12 +24261,10 @@ a.ui.card:hover,
 
 .ui.feed > .event {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
   width: 100%;
@@ -26628,13 +24288,12 @@ a.ui.card:hover,
 .ui.feed > .event > .label {
   display: block;
   -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   width: 2.5em;
   height: auto;
-  -webkit-align-self: stretch;
   -ms-flex-item-align: stretch;
+  -ms-grid-row-align: stretch;
   align-self: stretch;
   text-align: left;
 }
@@ -26669,11 +24328,10 @@ a.ui.card:hover,
 .ui.feed > .event > .content {
   display: block;
   -webkit-box-flex: 1;
-  -webkit-flex: 1 1 auto;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
-  -webkit-align-self: stretch;
   -ms-flex-item-align: stretch;
+  -ms-grid-row-align: stretch;
   align-self: stretch;
   text-align: left;
   word-wrap: break-word;
@@ -26884,7 +24542,7 @@ a.ui.card:hover,
     User Variable Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Item
+ * # Semantic UI undefined - Item
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -26903,7 +24561,6 @@ a.ui.card:hover,
 
 .ui.items > .item {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   margin: 1em 0em;
@@ -26967,7 +24624,6 @@ a.ui.card:hover,
 .ui.items > .item > .image {
   position: relative;
   -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   display: block;
@@ -26975,8 +24631,8 @@ a.ui.card:hover,
   margin: 0em;
   padding: 0em;
   max-height: '';
-  -webkit-align-self: top;
   -ms-flex-item-align: top;
+  -ms-grid-row-align: top;
   align-self: top;
 }
 
@@ -26999,7 +24655,6 @@ a.ui.card:hover,
 .ui.items > .item > .content {
   display: block;
   -webkit-box-flex: 1;
-  -webkit-flex: 1 1 auto;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   background: none;
@@ -27025,8 +24680,8 @@ a.ui.card:hover,
   width: auto;
   display: block;
   margin-left: 0em;
-  -webkit-align-self: top;
   -ms-flex-item-align: top;
+  -ms-grid-row-align: top;
   align-self: top;
   padding-left: 1.5em;
 }
@@ -27062,8 +24717,8 @@ a.ui.card:hover,
 ---------------*/
 
 .ui.items > .item .content img {
-  -webkit-align-self: middle;
   -ms-flex-item-align: middle;
+  -ms-grid-row-align: middle;
   align-self: middle;
   width: '';
 }
@@ -27273,7 +24928,6 @@ a.ui.card:hover,
   .ui.items:not(.unstackable) > .item {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
     margin: 2em 0em;
@@ -27307,19 +24961,17 @@ a.ui.card:hover,
 --------------------*/
 
 .ui.items > .item > .image + [class*="top aligned"].content {
-  -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
   align-self: flex-start;
 }
 
 .ui.items > .item > .image + [class*="middle aligned"].content {
-  -webkit-align-self: center;
   -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
   align-self: center;
 }
 
 .ui.items > .item > .image + [class*="bottom aligned"].content {
-  -webkit-align-self: flex-end;
   -ms-flex-item-align: end;
   align-self: flex-end;
 }
@@ -27410,7 +25062,7 @@ a.ui.card:hover,
     User Variable Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Statistic
+ * # Semantic UI undefined - Statistic
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -27427,12 +25079,10 @@ a.ui.card:hover,
 
 .ui.statistic {
   display: -webkit-inline-box;
-  display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
   margin: 1em 0em;
@@ -27459,30 +25109,24 @@ a.ui.card:hover,
 
 .ui.statistics {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: start;
-  -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
-  -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
 .ui.statistics > .statistic {
   display: -webkit-inline-box;
-  display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-flex: 0;
-  -webkit-flex: 0 1 auto;
   -ms-flex: 0 1 auto;
   flex: 0 1 auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
   margin: 0em 1.5em 2em;
@@ -27491,7 +25135,6 @@ a.ui.card:hover,
 
 .ui.statistics {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   margin: 1em -1.5em -2em;
@@ -27710,20 +25353,16 @@ a.ui.card:hover,
 .ui.horizontal.statistic {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
-  -ms-grid-row-align: center;
   align-items: center;
 }
 
 .ui.horizontal.statistics {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
   margin: 0em;
@@ -27733,13 +25372,10 @@ a.ui.card:hover,
 .ui.horizontal.statistics .statistic {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
-  -ms-grid-row-align: center;
   align-items: center;
   max-width: none;
   margin: 1em 0em;
@@ -28062,7 +25698,7 @@ a.ui.card:hover,
     User Variable Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Accordion
+ * # Semantic UI undefined - Accordion
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -28324,7 +25960,7 @@ a.ui.card:hover,
         User Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Checkbox
+ * # Semantic UI undefined - Checkbox
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -28992,7 +26628,7 @@ a.ui.card:hover,
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Dimmer
+ * # Semantic UI undefined - Dimmer
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -29114,8 +26750,10 @@ body.dimmable > .dimmer {
 .blurring.dimmable > :not(.dimmer) {
   -webkit-filter: blur(0px) grayscale(0);
   filter: blur(0px) grayscale(0);
-  -webkit-transition: 800ms filter ease;
+  -webkit-transition: 800ms -webkit-filter ease;
+  transition: 800ms -webkit-filter ease;
   transition: 800ms filter ease;
+  transition: 800ms filter ease, 800ms -webkit-filter ease;
 }
 
 .blurring.dimmed.dimmable > :not(.dimmer) {
@@ -29198,7 +26836,7 @@ body.dimmable > .dimmer {
         User Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Dropdown
+ * # Semantic UI undefined - Dropdown
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -29371,7 +27009,6 @@ body.dimmable > .dimmer {
 .ui.dropdown .menu > .input {
   width: auto;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   margin: 1.14285714rem 0.78571429rem;
@@ -30775,7 +28412,7 @@ select.ui.dropdown {
         User Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Video
+ * # Semantic UI undefined - Video
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -30940,7 +28577,7 @@ select.ui.dropdown {
   padding-bottom: 42.85714286%;
 }
 /*!
- * # Semantic UI 2.2.10 - Modal
+ * # Semantic UI undefined - Modal
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -31046,12 +28683,10 @@ select.ui.dropdown {
 
 .ui.modal > .image.content {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
 }
@@ -31061,30 +28696,29 @@ select.ui.dropdown {
 .ui.modal > .content > .image {
   display: block;
   -webkit-box-flex: 0;
-  -webkit-flex: 0 1 auto;
   -ms-flex: 0 1 auto;
   flex: 0 1 auto;
   width: '';
-  -webkit-align-self: top;
   -ms-flex-item-align: top;
+  -ms-grid-row-align: top;
   align-self: top;
 }
 
 .ui.modal > [class*="top aligned"] {
-  -webkit-align-self: top;
   -ms-flex-item-align: top;
+  -ms-grid-row-align: top;
   align-self: top;
 }
 
 .ui.modal > [class*="middle aligned"] {
-  -webkit-align-self: middle;
   -ms-flex-item-align: middle;
+  -ms-grid-row-align: middle;
   align-self: middle;
 }
 
 .ui.modal > [class*="stretched"] {
-  -webkit-align-self: stretch;
   -ms-flex-item-align: stretch;
+  -ms-grid-row-align: stretch;
   align-self: stretch;
 }
 
@@ -31093,19 +28727,17 @@ select.ui.dropdown {
 .ui.modal > .content > .description {
   display: block;
   -webkit-box-flex: 1;
-  -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
   min-width: 0px;
-  -webkit-align-self: top;
   -ms-flex-item-align: top;
+  -ms-grid-row-align: top;
   align-self: top;
 }
 
 .ui.modal > .content > .icon + .description,
 .ui.modal > .content > .image + .description {
   -webkit-box-flex: 0;
-  -webkit-flex: 0 1 auto;
   -ms-flex: 0 1 auto;
   flex: 0 1 auto;
   min-width: '';
@@ -31216,7 +28848,6 @@ select.ui.dropdown {
   .ui.modal .image.content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
   }
@@ -31497,7 +29128,7 @@ select.ui.dropdown {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Nag
+ * # Semantic UI undefined - Nag
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -31642,7 +29273,7 @@ a.ui.nag {
         User Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Popup
+ * # Semantic UI undefined - Popup
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -32453,7 +30084,7 @@ a.ui.nag {
         User Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Progress Bar
+ * # Semantic UI undefined - Progress Bar
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -33034,7 +30665,7 @@ a.ui.nag {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Rating
+ * # Semantic UI undefined - Rating
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -33049,7 +30680,6 @@ a.ui.nag {
 
 .ui.rating {
   display: -webkit-inline-box;
-  display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
   white-space: nowrap;
@@ -33069,7 +30699,6 @@ a.ui.nag {
   font-weight: normal;
   font-style: normal;
   -webkit-box-flex: 1;
-  -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
   cursor: pointer;
@@ -33313,7 +30942,7 @@ a.ui.nag {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Search
+ * # Semantic UI undefined - Search
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -33747,7 +31376,7 @@ a.ui.nag {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Shape
+ * # Semantic UI undefined - Shape
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -33906,7 +31535,7 @@ a.ui.nag {
         User Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Sidebar
+ * # Semantic UI undefined - Sidebar
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -34599,7 +32228,7 @@ html.ios {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Sticky
+ * # Semantic UI undefined - Sticky
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -34673,7 +32302,7 @@ html.ios {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Tab
+ * # Semantic UI undefined - Tab
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -34760,7 +32389,7 @@ html.ios {
         User Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Transition
+ * # Semantic UI undefined - Transition
  * http://github.com/semantic-org/semantic-ui/
  *
  *
