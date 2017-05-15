@@ -8,6 +8,7 @@
 <body>
     <div id="button">Click me</div>
     <script>
+        //回调地域，考虑promise接口
         document.getElementById('button').addEventListener('click', function(){
             
             PurePopup.prompt({
@@ -21,7 +22,7 @@
                     emailInput: 'Email:'
                 }
             }, function(result) {
-                
+                console.log("prompt callback");
                 if (result.confirm == 'okButton') {
 
                     PurePopup.alert({
@@ -37,7 +38,7 @@
                             no: 'No'
                         },
                     }, function(result) {
-
+                        console.log("confirm callback");
                         if (result.confirm == 'yes') {
 
                             PurePopup.alert({title: 'So, goodbye'});
