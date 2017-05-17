@@ -1,3 +1,15 @@
+/*******************************
+            Variables
+*******************************/
+$mini: 0.6rem;
+$tiny: 0.8rem;
+$small: 0.9rem;
+$medium: 1rem;
+$large: 1.1rem;
+$big: 1.2rem;
+$huge: 1.4rem;
+$massive: 1.6rem;
+
 .lw-btn {
   cursor: pointer;
   display: inline-block;
@@ -54,4 +66,90 @@
     0px -0em,
   ;
   color: rgba(0, 0, 0, 0.6);
+}
+
+
+
+/*-------------------
+        Sizes
+--------------------*/
+
+.lw-btns.mini .lw-btn,
+.lw-btn.mini {
+  font-size: $mini;
+}
+.lw-btns.tiny .lw-btn,
+.lw-btn.tiny {
+  font-size: $tiny;
+}
+.lw-btns.small .lw-btn,
+.lw-btn.small {
+  font-size: $small;
+}
+.lw-btns .lw-btn,
+.lw-btn {
+  font-size: $medium;
+}
+.lw-btns.large .lw-btn,
+.lw-btn.large {
+  font-size: $large;
+}
+.lw-btns.big .lw-btn,
+.lw-btn.big {
+  font-size: $big;
+}
+.lw-btns.huge .lw-btn,
+.lw-btn.huge {
+  font-size: $huge;
+}
+.lw-btns.massive .lw-btn,
+.lw-btn.massive {
+  font-size: $massive;
+}
+
+
+/*******************************
+            Groups
+*******************************/
+
+.lw-btns {
+  display: inline-flex;
+  flex-direction: row;
+  font-size: 0em;
+  vertical-align: baseline;
+  margin: 0em 0.25em 0em 0em;
+}
+
+/* Clearfix */
+.lw-btns:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* Standard Group */
+.lw-btns .lw-btn {
+  flex: 1 0 auto;
+  margin: 0em;
+  border-radius: 0em;
+  margin: 0;
+}
+.lw-btns > .lw-btn {
+  box-shadow: 
+    0px 0px 0px,
+    0px -0em,
+  ;
+}
+
+.lw-btns .lw-btn:first-child {
+  border-left: none;
+  margin-left: 0em;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.lw-btns .lw-btn:last-child {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
 }
