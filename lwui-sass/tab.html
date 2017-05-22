@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Theming - Semantic</title>
+  <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+  <script src="./tab.js"></script>
+  <link rel="stylesheet" type="text/css" href="./dist/buttons.css">
+  <link rel="stylesheet" type="text/css" href="./dist/tab.css">
+
+  <!--- Example CSS -->
+  <style>
+  body {
+    padding: 1em;
+  }
+  .spaced > .button {
+    margin-bottom: 1em;
+  }
+  </style>
+
+</head>
+
+<body>
+
+<div class="ui top attached tabular menu">
+  <a class="lw-tab-tab active" data-tab="first">First</a>
+  <a class="lw-tab-tab" data-tab="second">Second</a>
+  <a class="lw-tab-tab" data-tab="third">Third</a>
+</div>
+<div class="lw-tab-content active" data-tab="first">First </div>
+<div class="lw-tab-content" data-tab="second">Second </div>
+<div class="lw-tab-content" data-tab="third">Third </div>
+
+  <!--- Example Javascript -->
+  <script>
+  Tabs();
+  </script>
+</body>
+</html>

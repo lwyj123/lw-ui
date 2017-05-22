@@ -1,0 +1,23 @@
+/*******************************
+           UI Tabs
+*******************************/
+
+.lw-tab-content {
+  display: none;
+}
+
+/*******************************
+             States
+*******************************/
+
+/*--------------------
+       Active
+---------------------*/
+.lw-tab-tab.active {
+    background: #999;
+}
+
+.lw-tab-content.active,
+.lw-tab-content.open {
+  display: block;
+}
