@@ -36,7 +36,10 @@
 
   <!--- Example Javascript -->
   <script>
-  Tabs();
+  var test = new Tabs();
+  test.on("change", function(from, to) {
+    alert(`from is ${from} / to is ${to}`);
+  })
   </script>
 </body>
 </html>
