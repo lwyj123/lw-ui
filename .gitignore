@@ -7,15 +7,6 @@ semantic.json
 tasks/**/oauth.js
 
 # Numerous always-ignore extensions
-*.diff
-*.err
-*.orig
-*.log
-*.rej
-*.swo
-*.swp
-*.zip
-*.vi
 *~
 *.sass-cache
 *.ruby-version
