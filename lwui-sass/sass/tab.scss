@@ -21,3 +21,41 @@
 .lw-tab-content.open {
   display: block;
 }
+
+.lw-tab-tab{
+    color: #222;
+    display: inline-block;
+    padding: .5em 1em;
+    position: relative;
+    text-decoration: none;
+    
+    &:after {
+      background: #000;
+      content: '';
+      left: 0;
+      right: 0;
+      height: 0px;
+      bottom: 0;
+      position: absolute;
+      transition: height .2s ease-in-out;
+    }
+    
+    &:hover,
+    &:focus {
+      &:after {
+        height: 4px;
+      }
+    }
+    
+    &.active{
+      background: #333;
+      color: #fff;
+      
+      &:hover,
+      &:focus {
+        &:after {
+          background: #fff; 
+        }
+      }
+    }
+}
